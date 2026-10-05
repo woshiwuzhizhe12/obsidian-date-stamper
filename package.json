@@ -1,0 +1,26 @@
+{
+	"name": "obsidian-date-stamper",
+	"version": "1.2.0",
+	"description": "Obsidian plugin: insert the current date into notes at a configurable position using a custom format.",
+	"main": "main.js",
+	"type": "module",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production"
+	},
+	"keywords": [
+		"obsidian",
+		"obsidian-plugin",
+		"date",
+		"timestamp"
+	],
+	"author": "李工",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^22.15.17",
+		"esbuild": "0.25.5",
+		"obsidian": "^1.13.1",
+		"tslib": "^2.8.1",
+		"typescript": "^5.8.3"
+	}
+}

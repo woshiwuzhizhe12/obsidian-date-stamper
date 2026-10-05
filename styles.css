@@ -1,0 +1,64 @@
+/* Date Stamper —— 设置面板样式，全部使用 Obsidian 主题变量，自动适配明暗主题 */
+
+.date-stamper-settings .date-stamper-hint {
+	color: var(--text-muted);
+	font-size: var(--font-ui-smaller);
+	margin-top: -0.4em;
+}
+
+.date-stamper-preview {
+	border: 1px solid var(--background-modifier-border);
+	border-left: 3px solid var(--interactive-accent);
+	border-radius: var(--radius-m);
+	background-color: var(--background-secondary);
+	padding: 10px 14px;
+	margin: 12px 0 20px 0;
+}
+
+.date-stamper-preview-label {
+	color: var(--text-muted);
+	font-size: var(--font-ui-smaller);
+	margin-bottom: 6px;
+}
+
+.date-stamper-preview-value {
+	font-family: var(--font-monospace);
+	font-size: 1rem;
+	color: var(--text-normal);
+	word-break: break-all;
+	white-space: pre-wrap;
+}
+
+.date-stamper-input {
+	width: 100%;
+	min-width: 320px;
+	font-family: var(--font-monospace);
+	font-size: var(--font-ui-small);
+}
+
+.date-stamper-table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: var(--font-ui-small);
+	margin-bottom: 24px;
+}
+
+.date-stamper-table th,
+.date-stamper-table td {
+	border: 1px solid var(--background-modifier-border);
+	padding: 4px 8px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.date-stamper-table th {
+	background-color: var(--background-secondary);
+	color: var(--text-muted);
+	font-weight: 600;
+}
+
+.date-stamper-code {
+	font-family: var(--font-monospace);
+	color: var(--text-accent);
+	white-space: nowrap;
+}
