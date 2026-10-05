@@ -1,4 +1,23 @@
+# Dependencies
 node_modules/
+
+# Build output (produced by esbuild; not source)
 main.js
+*.js.map
+
+# Release archives
 *.zip
+
+# Obsidian plugin runtime data (user settings)
+data.json
+
+# OS / editor
 .DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
